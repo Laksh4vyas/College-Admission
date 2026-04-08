@@ -1,0 +1,51 @@
+college,location,branch,fees,avg_cutoff
+Poornima College,Jaipur,CSE,90000,75
+Poornima College,Jaipur,AI,95000,72
+JECRC University,Jaipur,CSE,120000,70
+JECRC University,Jaipur,AI,130000,68
+JECRC University,Jaipur,ECE,110000,65
+SKIT Jaipur,Jaipur,CSE,100000,80
+SKIT Jaipur,Jaipur,AI,95000,76
+MNIT Jaipur,Jaipur,CSE,200000,95
+MNIT Jaipur,Jaipur,ECE,180000,92
+Manipal University,Jaipur,CSE,220000,80
+Manipal University,Jaipur,AI,250000,78
+VIT Vellore,Vellore,CSE,300000,90
+VIT Vellore,Vellore,ECE,250000,85
+SRM University,Chennai,CSE,250000,88
+SRM University,Chennai,AI,270000,86
+BITS Pilani,Pilani,CSE,400000,98
+BITS Pilani,Pilani,ECE,380000,95
+Thapar University,Patiala,CSE,250000,85
+Thapar University,Patiala,AI,260000,82
+LPU,Jalandhar,CSE,150000,65
+LPU,Jalandhar,AI,160000,60
+Chandigarh University,Mohali,CSE,140000,70
+Chandigarh University,Mohali,AI,145000,65
+Amity University,Noida,CSE,280000,75
+Amity University,Noida,AI,290000,72
+Jaypee Institute,Noida,CSE,220000,85
+Jaypee Institute,Noida,ECE,200000,80
+RVCE,Bangalore,CSE,250000,92
+RVCE,Bangalore,AI,240000,90
+BMSCE,Bangalore,CSE,220000,88
+MSRIT,Bangalore,CSE,200000,85
+PES University,Bangalore,CSE,280000,89
+IIT Bombay,Mumbai,CSE,250000,99
+IIT Bombay,Mumbai,AI,250000,98
+IIT Delhi,Delhi,CSE,250000,99
+DTU,Delhi,CSE,200000,95
+NSUT,Delhi,CSE,190000,94
+IIIT Hyderabad,Hyderabad,CSE,350000,97
+IIIT Hyderabad,Hyderabad,AI,350000,96
+NIT Trichy,Trichy,CSE,150000,96
+NIT Surathkal,Surathkal,CSE,150000,95
+NIT Warangal,Warangal,CSE,150000,94
+Haldia Institute,Haldia,CSE,120000,70
+Heritage Institute,Kolkata,CSE,130000,75
+IEM,Kolkata,CSE,140000,78
+Techno Main,Kolkata,CSE,110000,72
+KIIT,Bhubaneswar,CSE,250000,80
+KIIT,Bhubaneswar,AI,260000,75
+ITER,Bhubaneswar,CSE,180000,70
+C V Raman,Bhubaneswar,CSE,150000,65

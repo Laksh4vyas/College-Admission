@@ -1,0 +1,17 @@
+# To install all the libraries required for this project, run the following command in your terminal/command prompt:
+# pip install -r requirements.txt
+
+#     streamlit run app.py
+
+
+streamlit
+pandas
+scikit-learn
+PyPDF2
+joblib
+
+
+
+
+
+

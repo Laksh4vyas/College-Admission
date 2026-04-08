@@ -1,0 +1,787 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you?",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "What's up",
+                "how are ya",
+                "heyy",
+                "whatsup",
+                "??? ??? ??"
+            ],
+            "responses": [
+                "Hello!",
+                
+                "Hi there, how can I help?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you",
+                "bye bye",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Bye",
+                "Have a Good day",
+                "talk to you later",
+                "ttyl",
+                "i got to go",
+                "gtg"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!",
+                "Come back soon"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "what is the name of your developers",
+                "what is the name of your creators",
+                "what is the name of the developers",
+                "what is the name of the creators",
+                "who created you",
+                "your developers",
+                "your creators",
+                "who are your developers",
+                "developers",
+                "you are made by",
+                "you are made by whom",
+                "who created you",
+                "who create you",
+                "creators",
+                "who made you",
+                "who designed you"
+            ],
+            "responses": [
+                "The names of my creator are Prathmesh Salunkhe, Rushikesh Patil, Isha Deshmukh and Ankit Gholase!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "your name",
+                "do you have a name",
+                "what are you called",
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "what are you",
+                "who are you",
+                "who is this",
+                "what am i chatting to",
+                "who am i taking to",
+                "what are you"
+            ],
+            "responses": [
+                "You can call me Admission-bot.",
+                "I'm Admission-bot",
+                "I am a Chatbot.",
+                "I am your helper"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "about",
+            "patterns":[
+                "about",
+                "about college",
+                "college info",
+                "intro of college",
+                "give a short info about the college",
+                "tell something about college "
+            ],
+            "responses":[
+                "Marathwada Mitra Mandal's College of Engineering Karvenagar (MMCOE) is one of the best engineering colleges located in Pune,Karvenagar Maharashtra. The college offers Bachelors in Engineering (B.E) in the branch of Computer, Electrical, Electronics and Telecommunication, Information Technology and Mechanical Engineering and Artificial Intelligence. The college also provides Masters in Business Management (MBA) and Computer Engineering.!. <br>\tMMCOE is affiliated to Savitribai Phule Pune University accredited with 'A' grade by NAAC and recognized by DTE Maharashtra. and approved by AICTE New Delhi. MMCOE has been recognised as the BEST COLLEGE-2019 by SPPU. MMCOE is one feather in the cap of Marathwada Mitra Mandal Pune, from the academic year 2006 - 2007. It offers five engineering programmes (Computer, Electrical, E&TC, Information Technology, Mechanical and Artificial Intelligence) and two P.G programmes MBA and ME(Computer Engineering). It houses 2000+ students and 200 staff members. Along with the focus on core academics, college also takes care of overall personality development of the students. The college has an active robotics cell, NCC, Training and Placement cell etc. The students are motivated to actively participate in co-curricular and extra-curricular activities. They have brought many laurels to the Institute in the events such as Vinodottam Karandak, Firodiya Karandak, Zest, Dexterity etc. Two departments Electrical Engineering & Mechanical Engineering Departments of MMCOE got accredited by National Board of Accreditation (NBA). For more detailed info here is the main website of the college - <a href=\"https://www.mmcoe.edu.in\" target=\"_blank\"  rel=\"noopener noreferrer\">https://www.mmcoe.edu.in</a>"
+            ]
+        },
+        {
+            "tag": "trust",
+            "patterns":[
+                "trust",
+                "about trust",
+                "what about the college trust",
+                "trust info",
+                "say something about the college trust",
+                "give a short info about the college trust"
+            ],
+            "responses":[
+                "The trust \"Marathwada Mitra Mandal, Pune\" was established in 1967 by Hon. Late Shri. Shankarraoji Chavan, Former Home Minister, Govt. of India as the \"Founder President\". The trust had started its activity with the objective of providing hostel or similar accommodation in Pune to the students. This trust is established through the inspiration of socially and educationally charged personalities, with motto \"Yethe Bahutanche Hit\" (Welfare of Masses). Mass education, co-education and dedication towards overall development of the region are the watchwords of the trust. At present the trust has four educational campuses at Deccan, Karvenagar, Lohagaon and Kalewadi."
+            ]
+        },
+        {
+            "tag": "FMCIII",
+            "patterns":[
+                "FMCII",
+                "what is FMCII",
+                "FMCIII full form",
+                "Does this college have a FMCIII facility",
+                "say something about the FMCIII",
+                "give a short info about the FMCIII"
+            ],
+            "responses":[
+                "The Foundation for Make It Happen Center for Invention, Innovation and Incubation (FMCIII) was established in 2020 as a Section 8 (Non-Profit) Company, by Marathwada Mitramandal, Pune in collaboration with Tata Technologies Ltd. (TTL) and Science & Technology Park (STP), Pune. It is located at MMCOE Campus, Karvenagar, Pune. While technology evolves at an escalated pace, it is very critical to choose a right place for up scaling a young generation who are the future in nation building. The increasing adoption of automation, data analytics and new technologies will continue to drastically change the future of work. With the present focus and major support in line with 'Atmanirbhar Bharat' (becoming self-reliant), there are humongous opportunities of indigenization, and that's why start-ups are going to play a vital role. The center is equipped with all the required facilities and support with mentors. This is helping in establishing new start-ups with a hands-on approach and making people ready with the latest technologies required for Industry 4.0 and others. The center is spread over 12,000 sq. feet with an investment of over Rs. 30 Crores."
+            ]
+        },
+        {
+            "tag": "clubs",
+            "patterns":[
+                "clubs",
+                "which clubs are present in this college",
+                "list down the clubs",
+                "tell something about co-curricular activities",
+                "co-curricualr activities",
+                "Student's chapter",
+                "how many students chapters are presnt in the college"
+            ],
+            "responses":[
+                "Our college have many clubs, student's association and chapters. Some of them are : Information Technolgy Students Association(ITSA), Google Developers Student Club(GDSC), Abhedya, Robocon, Artifical Intelligence Student Association Club(AESA), Zenith Astronomy, Adhaar Club, IT Tech Club, Mechanical Engg. Student Association, Microsoft Learn Student Club(MLSC), Institute of Electrical and Electronic Engg.(IEEE). For more info visit - <a href=\"https://www.mmcoe.edu.in/index.php/students-corner/co-curricular-events/student-club\" target=\"_blank\"  rel=\"noopener noreferrer\">student-club</a>"
+            ]
+        },
+        {
+            "tag": "Eligibility Criteria",
+            "patterns":[
+                "Eligibility",
+                "Eligibility Criteria",
+                "what is the Eligibility Criteria for admission",
+                "How much Score is required for Admission",
+                "Does college accept CET score",
+                "Does college accept JEE score"
+            ],
+            "responses":[
+                "Eligibility - Passed XII th and CET / JEE score mandatory. For details refer to Rules of State Common Entrance Test Cell, Government of Maharashtra: <a href=\"https://cetcell.mahacet.org\" target=\"_blank\"  rel=\"noopener noreferrer\">cetcell</a>"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "timing of college",
+                "what is college timing",
+                "working days",
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation",
+                "when is the college open",
+                "college timing",
+                "what about college timing",
+                "is college open on saturday",
+                "tell something about college timing",
+                "what is the college  hours",
+                "when should i come to college",
+                "when should i attend college",
+                "what is my college time",
+                "college timing",
+                "timing college"
+            ],
+            "responses": [
+                "College is open 9am-4pm Monday-Friday!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "number",
+            "patterns": [
+                "more info",
+                "contact info",
+                "how to contact college",
+                "college telephone number",
+                "college number",
+                "What is your contact no",
+                "Contact number?",
+                "how to call you",
+                "College phone no?",
+                "how can i contact you",
+                "Can i get your phone number",
+                "how can i call you",
+                "phone number",
+                "phone no",
+                "call"
+            ],
+            "responses": [
+                "You can contact at: 7414959307"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "course",
+            "patterns": [
+                "list of courses",
+                "list of courses offered",
+                "list of courses offered in",
+                "what are the courses offered in your college?",
+                "courses?",
+                "courses offered",
+                "courses offered in (your univrsity(UNI) name)",
+                "courses you offer",
+                "branches?",
+                "courses available at UNI?",
+                "branches available at your college?",
+                "what are the courses in UNI?",
+                "what are branches in UNI?",
+                "what are courses in UNI?",
+                "branches available in UNI?",
+                "can you tell me the courses available in UNI?",
+                "can you tell me the branches available in UNI?",
+                "computer engineering?",
+                "computer",
+                "Computer engineering?",
+                "it",
+                "IT",
+                "Information Technology",
+                "AI/Ml",
+                "Mechanical engineering",
+                "Chemical engineering",
+                "Civil engineering"
+            ],
+            "responses": [
+                "Our college offers following courses : <br>1. Information Technology <br>2. Computer Engineering   <br>3. Mechanical Engineering <br>4. Electrical Engineering <br>5. Electronics and Telecommunication Engineering <br>6. Artificial Intelligence and Data Science Engineering"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "information about fee",
+                "information on fee",
+                "tell me the fee",
+                "college fee",
+                "fee per semester",
+                "what is the fee of each semester",
+                "what is the fees of each year",
+                "what is fee",
+                "what is the fees",
+                "how much is the fees",
+                "fees for first year",
+                "fees",
+                "about the fees",
+                "tell me something about the fees",
+                "What is the fees of hostel",
+                "how much is the fees",
+                "hostel fees",
+                "fees for AC room",
+                "fees for non-AC room",
+                "fees for Ac room for girls",
+                "fees for non-Ac room for girls",
+                "fees for Ac room for boys",
+                "fees for non-Ac room for boys"
+            ],
+            "responses": [
+                "Here are the fee structure details of the college : <br>FE fee structure : <a href=\"https://www.mmcoe.edu.in/images/FE2023-24.pdf\" target=\"_blank\"  rel=\"noopener noreferrer\">FE FEES</a> <br>DSE fee structure : <a href=\"https://www.mmcoe.edu.in/images/DSE-2023-24.pdf\" target=\"_blank\"  rel=\"noopener noreferrer\">DSE FEES</a> <br>Hostel and Mess FEES : <a href=\"https://www.mmcoe.edu.in/images/HOSTEL-2023-24.pdf\" target=\"_blank\"  rel=\"noopener noreferrer\">HOSTEL AND MESS FEES</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "where is the college located",
+                "college is located at",
+                "where is college",
+                "where is college located",
+                "address of college",
+                "how to reach college",
+                "college location",
+                "college address",
+                "wheres the college",
+                "how can I reach college",
+                "whats is the college address",
+                "what is the address of college",
+                "address",
+                "location"
+            ],
+            "responses": [
+                "Our college address is as follows : <br>Marathwada Mitra Mandal's College of Engineering, <br>Survey No. 18, Plot No. 5/3, CTS 127, Off <br>Karve Road, Karvenagar, <br>Pune - 411502 <br>Maharashtra, India <br>Google Mapps Link - <a href=\"https://maps.app.goo.gl/2cTT11ji4BnwqtKz7\" target=\"_blank\"  rel=\"noopener noreferrer\">https://maps.app.goo.gl/2cTT11ji4BnwqtKz7</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "hostel facility",
+                "hostel servive",
+                "hostel location",
+                "hostel address",
+                "hostel facilities",
+                "hostel fees",
+                "Does college provide hostel",
+                "Is there any hostel",
+                "Where is hostel",
+                "do you have hostel",
+                "do you guys have hostel",
+                "hostel",
+                "hostel capacity",
+                "what is the hostel fee",
+                "how to get in hostel",
+                "what is the hostel address",
+                "how far is hostel from college",
+                "hostel college distance",
+                "where is the hostel",
+                "how big is the hostel",
+                "distance between college and hostel",
+                "distance between hostel and college"
+            ],
+            "responses": [
+                "Our college has an an campus, with Wi-Fi enabled Boys' hostel and Girls hostel with capacity to accommodate 444 students (Boys: 276 and Girls: 168) - Fully furnished hostel rooms with attached bathroom, hot water facility through Solar System Health care facility and Professional Counselor for students"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "event",
+            "patterns": [
+                "events organised",
+                "list of events",
+                "list of events organised in college",
+                "list of events conducted in college",
+                "What events are conducted in college",
+                "Are there any event held at college",
+                "Events?",
+                "functions",
+                "what are the events",
+                "tell me about events",
+                "what about events"
+            ],
+            "responses": [
+                "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\" rel=\"noopener noreferrer\"> here</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "document",
+            "patterns": [
+                "document to bring",
+                "documents needed for admision",
+                "documents needed at the time of admission",
+                "documents needed during admission",
+                "documents required for admision",
+                "documents required at the time of admission",
+                "documents required during admission",
+                "What document are required for admission",
+                "Which document to bring for admission",
+                "documents",
+                "what documents do i need",
+                "what documents do I need for admission",
+                "documents needed"
+            ],
+            "responses": [
+                "The documents that are required for the admission process are : Passport size Photograph, 10th and 12th marksheet, Domicile Certificate, Caste Certificate, Caste Validity(only if the candidate belongs to SC, ST or OBC), Income Certificate "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "floors",
+            "patterns": [
+                "size of campus",
+                "building size",
+                "How many floors does college have",
+                "floors in college",
+                "floors in college",
+                "how tall is UNI's College of Engineering college building",
+                "floors"
+            ],
+            "responses": [
+                "Our College has total 6 floors "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "syllabus",
+            "patterns": [
+                "Syllabus for IT",
+                "what is the Information Technology syllabus",
+                "syllabus",
+                "timetable",
+                "what is IT syllabus",
+                "syllabus",
+                "What is next lecture"
+            ],
+            "responses": [
+                "In first year all the branches have same academic cirricular. The subject in first year are : Engg. Mathematics-I, Engg. Mathematics-II, Engg. Physics, Engg. Chemistry, Engg. Mechanics, Basic Electrical Engg., Basic Electronics Engg., Engg. Graphics, System in Mechanical Engg., Programming and Problem Solving."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "is there any library",
+                "library facility",
+                "library facilities",
+                "do you have library",
+                "does the college have library facility",
+                "college library",
+                "where can i get books",
+                "book facility",
+                "Where is library",
+                "Library",
+                "Library information",
+                "Library books information",
+                "Tell me about library",
+                "how many libraries"
+            ],
+            "responses": [
+                "There is one huge and spacious library in the college. The timings are 8 : 45 am to 5 : 30 pm and for more visit : <a target=\"blank3\" href=\"https://www.mmcoe.edu.in/index.php/campus/library\" rel=\"noopener noreferrer\">library info</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "infrastructure",
+            "patterns": [
+                "how is college infrastructure",
+                "infrastructure",
+                "college infrastructure"
+            ],
+            "responses": [
+                "Our College has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "canteen",
+            "patterns": [
+                "food facilities",
+                "canteen facilities",
+                "canteen facility",
+                "is there any canteen",
+                "Is there a cafetaria in college",
+                "Does college have canteen",
+                "Where is canteen",
+                "where is cafetaria",
+                "canteen",
+                "Food",
+                "Cafetaria"
+            ],
+            "responses": [
+                "Our College has in-campus canteen with variety of food available"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "menu",
+            "patterns": [
+                "food menu",
+                "food in canteen",
+                "Whats there on menu",
+                "what is available in college canteen",
+                "what foods can we get in college canteen",
+                "food variety",
+                "What is there to eat?"
+            ],
+            "responses": [
+                "Our college canteen a serve wid range of food items. So famous ones are : Vada-sambar, Idle-Vada-sambar, Alu-puri, Paneer Paratha, Fruit Mocktail and many more on menu"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "placement",
+            "patterns": [
+                "What is college placement",
+                "Which companies visit in college",
+                "What is average package",
+                "companies visit",
+                "package",
+                "About placement",
+                "placement",
+                "recruitment",
+                "companies"
+            ],
+            "responses": [
+                "Marathwada Mitra Mandal's College of Engineering (MMCOE) has seen a successful placement season with top recruiters like TCS, Wipro, Infosys, Cognizant, Deloitte, ICICI Bank, HDFC Bank, Axis Bank, and many more1. The placement process included pre-placement talks, group discussions, and personal interviews1. The college placement cell has been successful in providing opportunities with companies such as Barclays, Yes Bank, TCS, Flipkart, Aloha, Cognizant, and Wipro, offering salary packages ranging from 5 LPA to 14 LPA2. The average package for recruited positions like system engineer, project engineer, programmer, etc. is 6 LPA. To know more about placement visit <a target=\"_blank\" href=\"https://mmcoe.edu.in/index.php/information-technology/information-technology/placements\" rel=\"noopener noreferrer\">here</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ithod",
+            "patterns": [
+                "Who is HOD of IT department",
+                "Where is HOD of IT dept",
+                "it hod",
+                "name of it hod"
+            ],
+            "responses": [
+                "The HOD of IT department is Dr. Rupali M. Chopade"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "computerhod",
+            "patterns": [
+                "Who is computer HOD",
+                "Where is computer HOD",
+                "computer hod",
+                "name of computer hod"
+            ],
+            "responses": [
+                "The HOD of CS department is Dr. Kalpana Thakre"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "extchod",
+            "patterns": [
+                "Who is extc HOD",
+                "Where is  extc HOD",
+                "extc hod",
+                "name of extc hod"
+            ],
+            "responses": [
+                "Different school wise hod are different.So be more clear with your school or department"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "principal",
+            "patterns": [
+                "what is the name of principal",
+                "whatv is the principal name",
+                "principal name",
+                "Who is college principal",
+                "Where is principal's office",
+                "principal",
+                "name of principal"
+            ],
+            "responses": [
+                "The principal of our college is Dr. V. N. Ghohokar"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "scholarship",
+            "patterns": [
+                "scholarship",
+                "Is scholarship available",
+                "scholarship engineering",
+                "available scholarships",
+                "list of scholarship"
+            ],
+            "responses": [
+                "Many government scholarships are supported by our university and college. For details and updates visit <a target=\"_blank\" href=\"https://mahadbt.maharashtra.gov.in/login/login\" rel=\"noopener noreferrer\">MahaDBT</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "facilities",
+            "patterns": [
+                "What facilities college provide",
+                "College facility",
+                "What are college facilities",
+                "facilities",
+                "facilities provided"
+            ],
+            "responses": [
+                "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "college intake",
+            "patterns": [
+                "max number of students",
+                "number of seats per branch",
+                "number of seats in each branch",
+                "maximum number of seats",
+                "maximum students intake",
+                "What is college intake",
+                "how many stundent are taken in each branch",
+                "seat allotment",
+                "seats"
+            ],
+            "responses": [
+                "No. seats in each dept are as follows : <br>1. Information Technology - 60 <br>2. Computer Engineering - 120 <br>3.Artifical Intelligence and Data Science - 60 <br>4. Electronics and Telecommunication - 120 <br>5. Mechanical Engineering - 120 <br>6. Electrical Engineering - 60."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "uniform",
+            "patterns": [
+                "college dress code",
+                "college dresscode",
+                "what is the uniform",
+                "can we wear casuals",
+                "Does college have an uniform",
+                "Is there any uniform",
+                "uniform",
+                "what about uniform",
+                "do we have to wear uniform"
+            ],
+            "responses": [
+                "Uniform includes following clothing - <br>1. Formal White Shirt <br>2. Formal Navy Blue Pants <br>3. Maroon Tie"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "random",
+            "patterns": [
+                "I love you",
+                "Will you marry me",
+                "Do you love me"
+            ],
+            "responses": [
+                "I am not program for this, please ask appropriate query"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "swear",
+            "patterns": [
+                "fuck",
+                "bitch",
+                "shut up",
+                "hell",
+                "stupid",
+                "idiot",
+                "dumb ass",
+                "asshole",
+                "fucker"
+            ],
+            "responses": [
+                "please use appropriate language",
+                "Maintaining decency would be appreciated"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "vacation",
+            "patterns": [
+                "holidays",
+                "when will semester starts",
+                "when will semester end",
+                "when is the holidays",
+                "list of holidays",
+                "Holiday in these year",
+                "holiday list",
+                "about vacations",
+                "about holidays",
+                "When is vacation",
+                "When is holidays",
+                "how long will be the vacation"
+            ],
+            "responses": [
+                "Academic calender is given to you by your class-soordinators after you join your respective classes. That calender will properly guide you about the holidays you gonna get in your engg. journey."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "sports and games",
+                "give sports details",
+                "sports infrastructure",
+                "sports facilities",
+                "information about sports",
+                "Sports activities",
+                "please provide sports and games information"
+            ],
+            "responses": [
+                "Our college encourages all-round development of students and hence provides sports facilities in the campus. College faclited with large playground and well equiped sports rooms to play the sports like cricket, football, volleyball, etc. College also provides a Gymmnasim facility for the students. Our college also has a separate indoor game sections where various games like chess, carmon, table tennis can be played. For more details visit<a target=\"_blank\" href=\"https://www.mmcoe.edu.in/index.php/students-corner/extra-curricular-events\" rel=\"noopener noreferrer\">extra-curricular-events</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "salutaion",
+            "patterns": [
+                "okk",
+                "okie",
+                "nice work",
+                "well done",
+                "good job",
+                "thanks for the help",
+                "Thank You",
+                "its ok",
+                "Thanks",
+                "Good work",
+                "k",
+                "ok",
+                "okay"
+            ],
+            "responses": [
+                "I am glad I helped you, what else you want to know?",
+                "welcome, anything else i can assist you with?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "task",
+            "patterns": [
+                "what can you do",
+                "what are the thing you can do",
+                "things you can do",
+                "what can u do for me",
+                "how u can help me",
+                "why i should use you"
+            ],
+            "responses": [
+                "I can answer to low-intermediate questions regarding college",
+                "You can ask me questions regarding college, and i will try to answer them"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ragging",
+            "patterns": [
+                "ragging",
+                "is ragging practice active in college",
+                "does college have any antiragging facility",
+                "is there any ragging cases",
+                "is ragging done here",
+                "ragging against",
+                "antiragging facility",
+                "ragging juniors",
+                "ragging history",
+                "ragging incidents"
+            ],
+            "responses": [
+                "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "cutoff",
+            "patterns": [
+                "cuttof",
+                "what is cutoff for the college",
+                "what is tihe general cutoff of the college",
+                "it cutoff",
+                "cs cutoff",
+                "entc cutoff",
+                "Mechanical cutoff",
+                "electrical cutoff",
+                "computer cutoff",
+                "artificial intelligence cutoff",
+                "aids cutoff",
+                "Information Technology cutoff" 
+            ],
+            "responses": [
+                "For MMCOE, Pune UG admissions candidates must have passed class 12th with at least 50% marks from a recognised board also valid score in JEE Main, MHT CET conducted by NTA and State Common Entrance Test Cell - Maharashtra State respectively.<br> Here are the individual cutoff list of each branch : <br> BE Mechcanical - 53.82 <br> BE Electrical - 58.71 <br> BE ENTC -93.89 <br> BE IT - 96.45 <br> BE Computer - 97.18 <br> BE AIDS - 95.56"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Steps to complete the admission",
+            "patterns": [
+                "steps",
+                "admission steps",
+                "what are the steps of admission process",
+                "admission process",
+                "step by step admission procedure",
+                "admission flowchart",
+                "admission procedure" 
+            ],
+            "responses": [
+                "Following are the steps for admission procedure : <br>Step  1 - registration of student(FMCIII Entrance) <br>Step  2 - seat acceptance confirmation & admission form filling through ERP portal(MB205) <br>Step  3 - scrutiny & verification of documents(MB207) <br>Step  4 - fee payment through ERP portal(MB207) <br>Step  5 - online admission confirmation(MB207) <br>Step  6 - submission of documents(MB207) <br>Step  7 - allotment of CPRN(MB207) <br>Step  8 - I-card & welcome kit collection(MB207) <br>Step  9 - hostel accommodation for girls/boys(if required)(MB207) <br>Step 10 - join branchwise whatsapp group"
+            ],
+            "context_set": ""
+        }
+    ]
+}
